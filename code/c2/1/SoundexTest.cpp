@@ -1,6 +1,11 @@
-#include <gmock.h>
-#include <gtest.h>
+class Soundex {
+
+};
+
+
+#include <gmock/gmock.h>
 
 TEST(SoundexEncoding, RetainsSoleLetterOfOneLetterWord) { 
-   Soundex soundex;   
+   Soundex soundex;
+   ASSERT_FALSE(false);
 }
